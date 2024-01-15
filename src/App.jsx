@@ -12,7 +12,6 @@ const App = () => {
   const progress3 = 0.2;
   const progress4 = 0.3;
   const progress5 = 0.4;
-  console.log(progress);
 
   const handleProgress = (p) => {
     setProgress(p);
