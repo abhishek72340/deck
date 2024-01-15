@@ -1,0 +1,37 @@
+#our_story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  // width: 100%;
+  // height: 100vh;
+  font-family: Montserrat, sans-serif;
+  // transition: 0.5s ease-in-out;
+  position: absolute;
+  // top: 0;
+  // left: 0;
+  //   transform: translateY(-800px);
+}
+.our_story_text_container {
+  display: flex;
+  gap: 1rem;
+  font-size: 5vw;
+}
+.our {
+  font-weight: 500;
+}
+.story {
+  color: #e1ff01;
+  font-weight: 600;
+}
+.our_story_paragraph {
+  font-size: 1.2vw;
+  letter-spacing: 0.15vw;
+  line-height: 1.6vw;
+  text-align: center;
+  margin-top: -1rem;
+  b {
+    color: #e1ff01;
+  }
+}
