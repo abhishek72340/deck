@@ -1,10 +1,10 @@
 import { useState } from "react";
 import "./App.scss";
 import Stickyroll from "@stickyroll/react/stickyroll";
-import OurStory from "./components/our-story/OurStory";
-import PitchCatalystTeam from "./components/pitch-catalyst-team/PitchCatalystTeam";
-import AnimatedPitchCatalystTeam from "./components/animated_pitch_catalyst_team/AnimatedPitchCatalystTeam";
-import PitchCatalyst from "./components/pitch-catalyst/PitchCatalyst";
+import OurStory from "./components/ourStory/OurStory";
+import PitchCatalystTeam from "./components/pitchCatalystTeam/PitchCatalystTeam";
+import AnimatedPitchCatalystTeam from "./components/animatedPitchCatalystTeam/AnimatedPitchCatalystTeam";
+import PitchCatalyst from "./components/pitchCatalyst/PitchCatalyst";
 const App = () => {
   const [progress, setProgress] = useState(0);
   const progress1 = 0;

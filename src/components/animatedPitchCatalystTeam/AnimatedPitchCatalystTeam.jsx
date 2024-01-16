@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/animated-pitch-catalyst-team/animated-pitch-catalyst-team.scss";
+import "../../styles/animatedPitchCatalystTeam/animatedPitchCatalystTeam.scss";
 import AnimatedMainContent from "./AnimatedMainContent";
 const AnimatedPitchCatalystTeam = ({ progress, progress3, progress4 }) => {
   return (

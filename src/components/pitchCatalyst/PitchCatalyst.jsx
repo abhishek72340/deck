@@ -1,8 +1,8 @@
 import React from "react";
-import "../../styles/pitch-catalyst/pitch-catalyst.scss";
-import pitch1 from "../../assets/pitch-catalyst1.png";
-import pitch2 from "../../assets/pitch-catalyst2.png";
-import pitch3 from "../../assets/pitch-catalyst3.png";
+import "../../styles/pitchCatalyst/pitchCatalyst.scss";
+import pitch1 from "../../assets/pitchCatalyst1.png";
+import pitch2 from "../../assets/pitchCatalyst2.png";
+import pitch3 from "../../assets/pitchCatalyst3.png";
 const PitchCatalyst = ({ progress4, progress5, progress }) => {
   return (
     <div>

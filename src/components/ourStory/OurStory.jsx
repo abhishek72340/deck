@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/our-story/our-story.scss";
+import "../../styles/ourStory/ourStory.scss";
 const OurStory = ({ progress, progress1, progress2 }) => {
   return (
     <div
