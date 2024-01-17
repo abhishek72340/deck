@@ -8,10 +8,10 @@ import PitchCatalyst from "./components/pitchCatalyst/PitchCatalyst";
 const App = () => {
   const [progress, setProgress] = useState(0);
   const progress1 = 0;
-  const progress2 = 0.1;
-  const progress3 = 0.2;
-  const progress4 = 0.3;
-  const progress5 = 0.4;
+  const progress2 = 0.2;
+  const progress3 = 0.4;
+  const progress4 = 0.6;
+  const progress5 = 0.9;
 
   const handleProgress = (p) => {
     setProgress(p);
@@ -34,6 +34,8 @@ const App = () => {
               progress={progress}
               progress2={progress2}
               progress3={progress3}
+              progress4={progress4}
+              progress1={progress1}
             />
           }
           {

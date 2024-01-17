@@ -5,6 +5,10 @@ const OurStory = ({ progress, progress1, progress2 }) => {
     <div
       id="our_story"
       style={{
+        // backgroundColor:
+        //   progress > progress1 && progress <= progress2 ? "black" : "",
+        // height: "100vh",
+        // width: "100vw",
         opacity: progress >= progress1 && progress <= progress2 ? "1" : "0",
         transform:
           progress >= progress1 && progress <= progress2

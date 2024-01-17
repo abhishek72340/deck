@@ -4,6 +4,7 @@ import pitch1 from "../../assets/pitchCatalyst1.png";
 import pitch2 from "../../assets/pitchCatalyst2.png";
 import pitch3 from "../../assets/pitchCatalyst3.png";
 const PitchCatalyst = ({ progress4, progress5, progress }) => {
+  console.log("progress", progress);
   return (
     <div>
       <div

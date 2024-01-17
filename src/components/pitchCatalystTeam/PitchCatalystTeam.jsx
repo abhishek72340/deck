@@ -1,33 +1,33 @@
 import "../../styles/pitchCatalystTeam/pitchCatalystTeam.scss";
-const PitchCatalystTeam = ({ progress, progress2, progress3 }) => {
-  console.log(progress);
+const PitchCatalystTeam = ({ progress, progress2, progress3, progress4 }) => {
   return (
     <div
       className="pitch_catalyst_background"
       style={{
-        transition: "1s",
-        backgroundColor:
-          progress > 0.17713598074608905 && progress <= 0.19951865222623347
-            ? "#e1ff01"
-            : "#000",
-        opacity: progress > 0.1 && progress <= 0.2 ? "1" : "0",
+        transition: "2s",
+        // backgroundColor:
+        //   progress > 0.17713598074608905 && progress <= 0.19951865222623347
+        //     ? ""
+        //     : "#000",
+        opacity: progress > progress2 && progress <= progress3 ? "1" : "0",
       }}
     >
       <div
         className="whole_para_container_black"
         style={{
           borderRadius:
-            progress > 0.18813598074608905 && progress <= 0.19951865222623347
+            progress > 0.3 && progress <= 0.4
+              ? "50px"
+              : progress > progress3
               ? "50px"
               : "0",
           height:
-            progress > 0.18813598074608905 && progress <= 0.19951865222623347
+            progress > 0.3 && progress <= 0.4
+              ? "60vh"
+              : progress > 0.3
               ? "60vh"
               : "100vh",
-          backgroundColor:
-            progress > 0.18813598074608905 && progress <= 0.19651865222623347
-              ? "#000"
-              : "#000",
+          backgroundColor: progress > 0.2 && progress <= 0.3 ? "#000" : "#000",
           opacity: progress > progress2 && progress <= progress3 ? "1" : "0",
           transform:
             progress > progress2 && progress <= progress3
@@ -40,7 +40,7 @@ const PitchCatalystTeam = ({ progress, progress2, progress3 }) => {
             progress > progress2 && progress <= progress3 ? "2s" : "2s",
         }}
       >
-        <div className="whole_para_container" style={{}}>
+        <div className="whole_para_container">
           <p className="first_para_container">
             <b>the pitch catalyst team</b>, driven by a passion for visual{" "}
             <br />
