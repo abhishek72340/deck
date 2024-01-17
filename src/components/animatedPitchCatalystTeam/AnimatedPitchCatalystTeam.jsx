@@ -5,8 +5,9 @@ const AnimatedPitchCatalystTeam = ({ progress, progress3, progress4 }) => {
     <div
       className="container"
       style={{
-        backgroundColor: progress > progress4 ? "" : "#e1ff01",
-        transform: progress > progress4 ? "translateY(-500px)" : "none",
+        backgroundColor: progress > 0.3 ? "#e1ff01" : "transparent",
+        transition: "1s",
+        transform: progress > progress4 ? "translateY(-700px)" : "none",
       }}
     >
       <div

@@ -10,7 +10,7 @@ const PitchCatalyst = ({ progress4, progress5, progress }) => {
       <div
         className="pitch_catalyst_container"
         style={{
-          transition: "0.5s",
+          transition: "1s",
           transform:
             progress > progress4 && progress <= progress5
               ? "translate(0)"

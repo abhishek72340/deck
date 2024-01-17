@@ -5,10 +5,6 @@ const PitchCatalystTeam = ({ progress, progress2, progress3, progress4 }) => {
       className="pitch_catalyst_background"
       style={{
         transition: "2s",
-        // backgroundColor:
-        //   progress > 0.17713598074608905 && progress <= 0.19951865222623347
-        //     ? ""
-        //     : "#000",
         opacity: progress > progress2 && progress <= progress3 ? "1" : "0",
       }}
     >
